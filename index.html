@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H P Sai Kishan - Portfolio</title>
+    <style>
+        body, h1, h2, p {
+            margin: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.8;
+            background-color: #f5f5dc; 
+        }
+
+        header {
+            background-color: #333;
+            color: #e8eee9f5;
+            text-align: center;
+            padding: 1rem;
+        }
+        main {
+            padding: 2rem;
+        }
+
+        .profile {
+            display: flex;
+            align-items: center;
+            background-color: rgb(197, 148, 197);
+        }
+
+        .photo {
+            flex: 0.5;
+            padding: 0 3rem;
+        }
+
+        .photo img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 50%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        .bio {
+            flex: 2;
+        }
+
+        .qualifications, .expertise, .interests {
+            margin-bottom: 1.5rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #333;
+            color: #fff;
+        }
+
+        
+        @media screen and (max-width: 768px) {
+            .profile {
+                flex-direction: column;
+            }
+            .photo {
+                padding: 1rem 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>H P Sai Kishan</h1>
+    </header>
+
+    <main>
+        <section class="profile">
+            <div class="photo">
+                <!-- Relative path is best practice; adjust as needed -->
+                <img src="./kish2.jpeg" alt="Sai Kishan's Profile Picture">
+            </div>
+            <div class="bio">
+                <h2>About Me</h2>
+                <p>
+                    Passionate Software Engineer with 10+ years of experience in developing web applications and
+                    backend systems. Skilled at writing clear, concise code that is easy to maintain and troubleshoot.
+                    Experienced in working with both small and large teams across multiple projects and companies.
+                </p>
+
+                <div class="qualifications">
+                    <h3>My Qualifications are</h3>
+                    <ul>
+                        <li>B.Tech</li>
+                        <li>M.Tech</li>
+                    </ul>
+                </div>
+
+                <div class="expertise">
+                    <h3>My Expertise in</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JAVA</li>
+                        <li>PYTHON</li>
+                        <li>C++</li>
+                        <li>JAVA SCRIPT</li>
+                        <li>C PROGRAMMING</li>
+                    </ul>
+                </div>
+
+                <div class="interests">
+                    <h3>Interested in</h3>
+                    <ul>
+                        <li>Doing solo rides on bike</li>
+                        <li>Playing professional Badminton</li>
+                        <li>Videogames</li>
+                        <li>Outdoor games like Football and Volleyball</li>
+                        <li>Watching Sports</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Instagram: @kishanh.p</p>
+        <p>&copy; 2025 H P Sai Kishan. All rights reserved.</p>
+    </footer>
+</body>
+</html>
